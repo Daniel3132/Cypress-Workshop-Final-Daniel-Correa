@@ -1,3 +1,4 @@
+import { getRandomIndicatorIndex } from "../helpers/baseFunctions";
 import { locators } from "../locators/HomeLocators";
 const { carousel } = locators;
 
@@ -9,6 +10,11 @@ class HomePage {
 
     clickCarouselPrevButton() { this.carouselPrevButton().click(); }
     clickCarouselNextButton() { this.carouselNextButton().click(); }
+
+
+    clickCarouselIndicator(index) {
+        cy.get(carousel.Indicator + index + carousel.IndicatorCloser).click();
+    }
 }
 
 export default HomePage;
