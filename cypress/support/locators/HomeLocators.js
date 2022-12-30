@@ -1,5 +1,5 @@
 export const Homelocators = {
-    homeUrl : '/index.html',
+    homeUrl: '/index.html',
     categoriesTitle: '#cat',
     header: {
         home: '.nav-link[href="index.html"]',
