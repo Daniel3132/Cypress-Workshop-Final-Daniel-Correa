@@ -11,5 +11,5 @@ export const CartLocators = {
         purchaseBtn: '[onclick="purchaseOrder()"]'
     },
     sucessPurchaseAlert: '.sweet-alert.showSweetAlert.visible',
-    deleteProductBtn: 'td > a'
+    deleteProductBtn: 'td>a'
 }
