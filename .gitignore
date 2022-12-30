@@ -1,3 +1,5 @@
 node_modules
 cucumber_report
 videos
+allure-results
+screenshots
