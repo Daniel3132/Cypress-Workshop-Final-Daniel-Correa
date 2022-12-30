@@ -3,5 +3,6 @@ A framework from scratch using cypress, cucumber, and allure reporter, to test t
 
 ## Run
 
+* npm install
 * npx cypress run --env allure=true
 * allure serve allure-results/
