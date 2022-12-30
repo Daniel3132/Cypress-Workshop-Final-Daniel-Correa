@@ -23,7 +23,7 @@ And('I navigate to cart page', () => {
 });
 
 Then('The products list contains {int} products', ListSize => {
-    cy.get(CartLocators.cartTable).should('have.length', ListSize);
+    cy.get(CartLocators.cartTable).children().should('have.length', ListSize);
 });
 
 Given('there is a product in the cart', () => {

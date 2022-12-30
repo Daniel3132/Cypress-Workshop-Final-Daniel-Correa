@@ -9,7 +9,7 @@ class CartPage {
     monthInput() { return cy.get(purchaseForm.monthInput) }
     yearInput() { return cy.get(purchaseForm.yearInput) }
     purchaseBtn() { return cy.get(purchaseForm.purchaseBtn) }
-    deleteProductBtn() { return cy.get(purchaseForm.deleteProductBtn) }
+    deleteProductBtn() { return cy.get(CartLocators.deleteProductBtn) }
     sucessPurchaseAlert() { return cy.get(CartLocators.sucessPurchaseAlert) }
 }
 
